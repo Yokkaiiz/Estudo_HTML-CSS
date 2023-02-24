@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(146, 29, 127);
+            text-decoration:none;
+            font-weight: bold;
+        }
+        
+        a:visited {
+            color: teal;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow
+        }
+        
+        a::before {
+            content: '[⛧]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 0, 0)
+        }
+
+        a::after {
+            content: '[⛧]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 0, 0)
+        }
+
+        .dif {
+            background-color: rgba(128, 128, 128, 0.5);
+        }
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Yokkaii" target="_blank"
+            class="dif">GitHub</a></li>
+        <li><a href="https://www.instagram.com/http.yokkaii/?hl=pt-br">Instagram</a></li>
+        <li><a href="https://twitter.com/Yokkaii1">Twitter</a></li>
+    </ul>
+</body>
+</html>
